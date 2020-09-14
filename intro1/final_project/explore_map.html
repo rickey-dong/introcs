@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7fbafb91ff4348ddb89ec7b58edf646d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7fbafb91ff4348ddb89ec7b58edf646d" ></div>
+        
+</body>
+<script>    
+    
+            var map_7fbafb91ff4348ddb89ec7b58edf646d = L.map(
+                "map_7fbafb91ff4348ddb89ec7b58edf646d",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e149cb66f8ac41caaab17f368549aefb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var marker_ec1d7f743c8c4559b6a6809ebee73b90 = L.marker(
+                [40.660446137748, -73.939764727989],
+                {}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var icon_ec4e2d2c990b4ad5a8768d15e32f520b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ec1d7f743c8c4559b6a6809ebee73b90.setIcon(icon_ec4e2d2c990b4ad5a8768d15e32f520b);
+        
+    
+        var popup_19c7b046042049ddb7c5183e3e43ab37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b4a8192de924203ab0ef28f41ed3591 = $(`<div id="html_9b4a8192de924203ab0ef28f41ed3591" style="width: 100.0%; height: 100.0%;">MR KING FOOD KITCHEN</div>`)[0];
+            popup_19c7b046042049ddb7c5183e3e43ab37.setContent(html_9b4a8192de924203ab0ef28f41ed3591);
+        
+
+        marker_ec1d7f743c8c4559b6a6809ebee73b90.bindPopup(popup_19c7b046042049ddb7c5183e3e43ab37)
+        ;
+
+        
+    
+    
+            var marker_e28329c2417b49658a8fac667000d1f6 = L.marker(
+                [40.777930787701, -73.980065347385],
+                {}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var icon_5ce899804d524d5684afba28fcd716c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e28329c2417b49658a8fac667000d1f6.setIcon(icon_5ce899804d524d5684afba28fcd716c3);
+        
+    
+        var popup_bdc8b6ce87d24685941b8bc0ef8603fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b84784eed0e844c8b8b53857d2582d7b = $(`<div id="html_b84784eed0e844c8b8b53857d2582d7b" style="width: 100.0%; height: 100.0%;">FRIEDMAN'S</div>`)[0];
+            popup_bdc8b6ce87d24685941b8bc0ef8603fa.setContent(html_b84784eed0e844c8b8b53857d2582d7b);
+        
+
+        marker_e28329c2417b49658a8fac667000d1f6.bindPopup(popup_bdc8b6ce87d24685941b8bc0ef8603fa)
+        ;
+
+        
+    
+    
+            var marker_fba57a3a8bef4671bd982eaa0fa303d4 = L.marker(
+                [40.756014630206, -73.984807600074],
+                {}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var icon_4c193a8c5c214d63bae36e4d32f8662e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fba57a3a8bef4671bd982eaa0fa303d4.setIcon(icon_4c193a8c5c214d63bae36e4d32f8662e);
+        
+    
+        var popup_5506173c7eae4f0a8d56b79db69104c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_816aec322bbe4eacab57f69f12a8130b = $(`<div id="html_816aec322bbe4eacab57f69f12a8130b" style="width: 100.0%; height: 100.0%;">TONY'S DI NAPOLI</div>`)[0];
+            popup_5506173c7eae4f0a8d56b79db69104c4.setContent(html_816aec322bbe4eacab57f69f12a8130b);
+        
+
+        marker_fba57a3a8bef4671bd982eaa0fa303d4.bindPopup(popup_5506173c7eae4f0a8d56b79db69104c4)
+        ;
+
+        
+    
+    
+            var marker_d56f4f3a2df540f69f5cd569aa04935c = L.marker(
+                [40.600784898633, -74.000615784542],
+                {}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var icon_b48785750f9c41aa8295df5f1050a19b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d56f4f3a2df540f69f5cd569aa04935c.setIcon(icon_b48785750f9c41aa8295df5f1050a19b);
+        
+    
+        var popup_2f59d3f7babc401c98a327e88b5737dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90f1ac9d785445d297c774d8fc3e6554 = $(`<div id="html_90f1ac9d785445d297c774d8fc3e6554" style="width: 100.0%; height: 100.0%;">SUPER SKYWAY RESTAURANT & KEBAB HOUSE</div>`)[0];
+            popup_2f59d3f7babc401c98a327e88b5737dc.setContent(html_90f1ac9d785445d297c774d8fc3e6554);
+        
+
+        marker_d56f4f3a2df540f69f5cd569aa04935c.bindPopup(popup_2f59d3f7babc401c98a327e88b5737dc)
+        ;
+
+        
+    
+    
+            var marker_ebb49c59e8ea4ab4b142b147f228c387 = L.marker(
+                [40.570169579524, -74.109199304356],
+                {}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var icon_62d5cdedc6164f739371a38e8ba7ba6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebb49c59e8ea4ab4b142b147f228c387.setIcon(icon_62d5cdedc6164f739371a38e8ba7ba6b);
+        
+    
+        var popup_fd9ed3bae2644fa69075ecaf54040c6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc02ec1a49bd4056a07c6aa49f5797e3 = $(`<div id="html_dc02ec1a49bd4056a07c6aa49f5797e3" style="width: 100.0%; height: 100.0%;">BRAVO PIZZA</div>`)[0];
+            popup_fd9ed3bae2644fa69075ecaf54040c6f.setContent(html_dc02ec1a49bd4056a07c6aa49f5797e3);
+        
+
+        marker_ebb49c59e8ea4ab4b142b147f228c387.bindPopup(popup_fd9ed3bae2644fa69075ecaf54040c6f)
+        ;
+
+        
+    
+    
+            var marker_e05821af5afd4bd58b53a7f098b617d7 = L.marker(
+                [40.728811612274, -73.987498195877],
+                {}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var icon_4425f2d7a9b440db95c7dd377564b36b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e05821af5afd4bd58b53a7f098b617d7.setIcon(icon_4425f2d7a9b440db95c7dd377564b36b);
+        
+    
+        var popup_2f8d63fa14744ecdba790c53196bd3ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5816ea48b49495fbaffee308f21f41b = $(`<div id="html_d5816ea48b49495fbaffee308f21f41b" style="width: 100.0%; height: 100.0%;">BRASSERIE SAINT MARC</div>`)[0];
+            popup_2f8d63fa14744ecdba790c53196bd3ba.setContent(html_d5816ea48b49495fbaffee308f21f41b);
+        
+
+        marker_e05821af5afd4bd58b53a7f098b617d7.bindPopup(popup_2f8d63fa14744ecdba790c53196bd3ba)
+        ;
+
+        
+    
+    
+            var marker_917ca1802d4d43f68ab8d0674cd4285b = L.marker(
+                [40.759260762449, -73.967267421026],
+                {}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var icon_40c65993025b47aca819d9c48a2f86a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_917ca1802d4d43f68ab8d0674cd4285b.setIcon(icon_40c65993025b47aca819d9c48a2f86a5);
+        
+    
+        var popup_4356b836c90544b2a4f9e8632ff11a4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8719fca6a3ce4375a8516bc060cc87ef = $(`<div id="html_8719fca6a3ce4375a8516bc060cc87ef" style="width: 100.0%; height: 100.0%;">LIPS RESTAURANT</div>`)[0];
+            popup_4356b836c90544b2a4f9e8632ff11a4d.setContent(html_8719fca6a3ce4375a8516bc060cc87ef);
+        
+
+        marker_917ca1802d4d43f68ab8d0674cd4285b.bindPopup(popup_4356b836c90544b2a4f9e8632ff11a4d)
+        ;
+
+        
+    
+    
+            var marker_131742bcf883471cb5d76b4e4b53e01c = L.marker(
+                [40.705125749847, -73.809412633195],
+                {}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var icon_04f3f4a9304746feb6db73d534b1cbe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_131742bcf883471cb5d76b4e4b53e01c.setIcon(icon_04f3f4a9304746feb6db73d534b1cbe0);
+        
+    
+        var popup_eba3366d53ca4404b6fe207d719bdc7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b4bccbfe81c4e3eb7c1f310d2ff45de = $(`<div id="html_2b4bccbfe81c4e3eb7c1f310d2ff45de" style="width: 100.0%; height: 100.0%;">DOMENICKS PIZZA RESTARUANT</div>`)[0];
+            popup_eba3366d53ca4404b6fe207d719bdc7f.setContent(html_2b4bccbfe81c4e3eb7c1f310d2ff45de);
+        
+
+        marker_131742bcf883471cb5d76b4e4b53e01c.bindPopup(popup_eba3366d53ca4404b6fe207d719bdc7f)
+        ;
+
+        
+    
+    
+            var marker_c9e6efc0f1ff46a1a9ab4f0e186ce014 = L.marker(
+                [40.755257567593, -73.989131909204],
+                {}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var icon_2d21521eeeaf4856b3101688bf409c3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9e6efc0f1ff46a1a9ab4f0e186ce014.setIcon(icon_2d21521eeeaf4856b3101688bf409c3b);
+        
+    
+        var popup_b93d7e14468144638059573822fdbcdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_448c1c69e1ab41469f79fd805c4bca21 = $(`<div id="html_448c1c69e1ab41469f79fd805c4bca21" style="width: 100.0%; height: 100.0%;">"DUNKIN',  BASKIN ROBBINS"</div>`)[0];
+            popup_b93d7e14468144638059573822fdbcdc.setContent(html_448c1c69e1ab41469f79fd805c4bca21);
+        
+
+        marker_c9e6efc0f1ff46a1a9ab4f0e186ce014.bindPopup(popup_b93d7e14468144638059573822fdbcdc)
+        ;
+
+        
+    
+    
+            var marker_22550f252f494416aa9bca49de990d12 = L.marker(
+                [40.755051274002, -73.970875339288],
+                {}
+            ).addTo(map_7fbafb91ff4348ddb89ec7b58edf646d);
+        
+    
+            var icon_830ef5fadb644f6283acd474a62cf171 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22550f252f494416aa9bca49de990d12.setIcon(icon_830ef5fadb644f6283acd474a62cf171);
+        
+    
+        var popup_336099c12f074d27b9095c85351a053f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64d7edeab6384d82ab6271ec7021b47a = $(`<div id="html_64d7edeab6384d82ab6271ec7021b47a" style="width: 100.0%; height: 100.0%;">SMITH & WOLLENSKY</div>`)[0];
+            popup_336099c12f074d27b9095c85351a053f.setContent(html_64d7edeab6384d82ab6271ec7021b47a);
+        
+
+        marker_22550f252f494416aa9bca49de990d12.bindPopup(popup_336099c12f074d27b9095c85351a053f)
+        ;
+
+        
+    
+</script>

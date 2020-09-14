@@ -1,0 +1,93 @@
+﻿ls -a
+Lists all the files in the current or chosen directory on the machine alphabetically, even the ones that have not been accessed yet that are hiding with a . in front of it, including the . and ..
+usage: $ ls -a [FILE]
+example: $ ls -a bashcrawl/entrance
+
+
+ls -l
+Lists all the files in the current or chosen directory on the machine alphabetically as well as their author information and when they were created, but this ignores the directories that have periods in front of them
+usage: $ ls -l [FILE]
+example: $ ls -l bashcrawl
+
+
+pwd
+Prints the full order of directories you went into so far when you called it
+usage: $ pwd [OPTION]
+example: $ pwd
+
+
+cat
+Links files together and prints the output
+usage: $ cat [OPTION] [FILE]
+example: $ cat scroll
+
+
+touch
+Updates the last accessed time to when you called it, so in ls -l it would be viewed with a new timestamp
+usage: $ touch [OPTION] FILE
+example: $ touch bashcrawl
+
+
+cp
+Copies files and directories from a source to a destination or multiple sources to a directory
+usage: $ cp [OPTION] SOURCE DEST
+            $ cp [OPTION] SOURCE DIRECTORY
+             $ cp [OPTION] DIRECTORY SOURCE
+example: $ cp CW#11.scm~ COPY?OFCW#11
+
+
+mv
+Renames a file
+usage: $ mv [OPTION] SOURCE DEST
+            $ mv [OPTION] SOURCE DIRECTORY
+            $ mv [OPTION] DIRECTORY SOURCE
+example: $ mv COPY?OFCW#11 ANOTHERCOPYOFCW#11?
+
+
+mkdir 
+Makes directories if they don’t already exist
+usage: $ mkdir [OPTION] DIRECTORY
+example: $ mkdir MkDirnalds
+
+
+ssh 
+Opens a secure shell terminal that allows you to connect with another computer
+usage: $ ssh [user@]hostname [command]
+example: $ ssh dw@homer.stuycs.org
+
+
+nano
+Opens a text editor that is similar to Pico
+usage: $ nano [OPTION] [[+line[,column]] file]
+example: $ nano [+2[,4]]
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+$ cd ~
+$ mkdir marvel
+$ cd marvel
+$ mkdir heroes
+$ mkdir villains
+$ cd heroes
+$ mkdir avengers
+$ mkdir xmen
+$ cd avengers
+$ cp /home/students/2022/rdong21/CW#11.scm~ black_widow.txt
+$ cp /home/students/2022/rdong21/CW#11.scm~ hulk.txt
+$ cd ..
+$ cd xmen
+$ cp /home/students/2022/rdong21/CW#11.scm~ storm.txt
+$ cp /home/students/2022/rdong21/CW#11.scm~ wolverine.txt
+$ cd ..
+$ cd ..
+$ cd villains
+$ mkdir hydra
+$ cp /home/students/2022/rdong21/CW#11.scm~ thanos.txt
+$ cd hydra
+$ cp /home/students/2022/rdong21/CW#11.scm~ red_scull.txt
+$ cd ~
+$ tree marvel/

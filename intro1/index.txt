@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+
+<html>
+        <head>
+                <title>Rickey Dong's Profile</title>
+        </head>
+
+
+        <body style="background-color:yellow;">
+                Welcome To Rickey Dong's Profile!<br>
+        </body>
+
+
+        <body>
+                Basic Info:<br>
+                <ul>
+                        <li>Rickey Dong</li>
+                        <li>Period 9 Annual Intro II Comp Sci</li>
+                        <li>Free Periods: 3,8,10</li>
+                </ul>
+        </body>
+
+
+        <body>
+                Links to past HTML assignments<br>
+                <ul>
+                        <li><a href=http://homer.stuycs.org/~rdong21/basic_html.html>Basic_HTML</a>
+                        <li><a href=http://homer.stuycs.org/~rdong21/index.html>My Profile</a>
+                </ul>
+        </body>
+
+
+</html>

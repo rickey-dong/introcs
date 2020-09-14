@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New York City Eats</title>
+    <link rel="shortcut icon" href="restaurantTable.ico">
+    <style>
+      ul {
+	list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      li {
+        float: left;
+	font-family: verdana;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 200px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111; 
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align:center">New York City Eats</h1>
+    <ul>
+	<li><a href="home.html">Home</a></li>
+	<li><a href="explore.py">Explore</a></li>
+	<li><a href="match.html">Match</a></li>
+    </ul>
+    <p>
+      * denotes a required field
+    </p>
+    <form action="match.py" method="GET">
+      Borough*:
+      <br>
+      <input type="checkbox" id="Bronx" name="Bronx" value="selected">
+      <label for="Bronx"> Bronx</label><br>
+      <input type="checkbox" id="Brooklyn" name="Brooklyn" value="selected">
+      <label for="Brooklyn"> Brooklyn</label><br>
+      <input type="checkbox" id="Manhattan" name="Manhattan" value="selected">
+      <label for="Manhattan"> Manhattan</label><br>
+      <input type="checkbox" id="Queens" name="Queens" value="selected">
+      <label for="Queens"> Queens</label><br>
+      <input type="checkbox" id="Staten_Island" name="Staten" value="selected">
+      <label for="Staten"> Staten Island</label><br>
+      <label for="ZipCode">Zip Code: </label> 
+      <input type="number" id="ZipCode" name="ZipCode" min="10000" max="99999" placeholder="11111">
+      <br>
+      Cuisine*: 
+      <br>
+      <input type="checkbox" id="Afghan" name="Afghan" value="selected">
+      <label for="Afghan"> Afghan</label><br>
+      <input type="checkbox" id="African" name="African" value="selected">
+      <label for="African"> African</label><br>
+      <input type="checkbox" id="American" name="American" value="selected">
+      <label for="American"> American</label><br>
+      <input type="checkbox" id="Armenian" name="Armenian" value="selected">
+      <label for="Armenian"> Armenian</label><br>
+      <input type="checkbox" id="Asian" name="Asian" value="selected">
+      <label for="Asian"> Asian</label><br>
+      <input type="checkbox" id="Australian" name="Australian" value="selected">
+      <label for="Australian"> Australian</label><br>
+      <input type="checkbox" id="Bagels_Pretzels" name="Bagels" value="selected">
+      <label for="Bagels"> Bagels/Pretzels</label><br>
+      <input type="checkbox" id="Bakery" name="Bakery" value="selected">
+      <label for="Bakery"> Bakery</label><br>
+      <input type="checkbox" id="Bangladeshi" name="Bangladeshi" value="selected">
+      <label for="Bangladeshi"> Bangladeshi</label><br>
+      <input type="checkbox" id="Barbecue" name="Barbecue" value="selected">
+      <label for="Barbecue"> Barbecue</label><br>
+      <input type="checkbox" id="Basque" name="Basque" value="selected">
+      <label for="Basque"> Basque</label><br>
+      <input type="checkbox" id="Brazilian" name="Brazilian" value="selected">
+      <label for="Brazilian"> Brazilian</label><br>
+      <input type="checkbox" id="Café" name="Café" value="selected">
+      <label for="Café"> Café/Coffee/Tea</label><br>
+      <input type="checkbox" id="Cajun" name="Cajun" value="selected">
+      <label for="Cajun"> Cajun</label><br>
+      <input type="checkbox" id="Californian" name="Californian" value="selected">
+      <label for="Californian"> Californian</label><br>
+      <input type="checkbox" id="Caribbean" name="Caribbean" value="selected">
+      <label for="Caribbean"> Caribbean</label><br>
+      <input type="checkbox" id="Chicken" name="Chicken" value="selected">
+      <label for="Chicken"> Chicken</label><br>
+      <input type="checkbox" id="Chilean" name="Chilean" value="selected">
+      <label for="Chilean"> Chilean</label><br>
+      <input type="checkbox" id="Chinese" name="Chinese" value="selected">
+      <label for="Chinese"> Chinese</label><br>
+      <input type="checkbox" id="Chinese_Cuban" name="ChineseCuban" value="selected">
+      <label for="ChineseCuban"> Chinese/Cuban</label><br>
+      <input type="checkbox" id="Chinese_Japanese" name="ChineseJapanese" value="selected">
+      <label for="ChineseJapanese"> Chinese/Japanese</label><br>
+      <input type="checkbox" id="Continental" name="Continental" value="selected">
+      <label for="Continental"> Continental</label><br>
+      <input type="checkbox" id="Creole" name="Creole" value="selected">
+      <label for="Creole"> Creole</label><br>
+      <input type="checkbox" id="Creole_Cajun" name="CreoleCajun" value="selected">
+      <label for="CreoleCajun"> Creole/Cajun</label><br>
+      <input type="checkbox" id="Czech" name="Czech" value="selected">
+      <label for="Czech"> Czech</label><br>
+      <input type="checkbox" id="Delicatessen" name="Delicatessen" value="selected">
+      <label for="Delicatessen"> Delicatessen</label><br>
+      <input type="checkbox" id="Donuts" name="Donuts" value="selected">
+      <label for="Donuts"> Donuts</label><br>
+      <input type="checkbox" id="Eastern European" name="Eastern" value="selected">
+      <label for="Eastern"> Eastern European</label><br>
+      <input type="checkbox" id="Egyptian" name="Egyptian" value="selected">
+      <label for="Egyptian"> Egyptian</label><br>
+      <input type="checkbox" id="English" name="English" value="selected">
+      <label for="English"> English</label><br>
+      <input type="checkbox" id="Ethiopian" name="Ethiopian" value="selected">
+      <label for="Ethiopian"> Ethiopian</label><br>
+      <input type="checkbox" id="Filipino" name="Filipino" value="selected">
+      <label for="Filipino"> Filipino</label><br>
+      <input type="checkbox" id="French" name="French" value="selected">
+      <label for="French"> French</label><br>
+      <input type="checkbox" id="Fruits_Vegetables" name="Fruits" value="selected">
+      <label for="Fruits"> Fruits/Vegetables</label><br>
+      <input type="checkbox" id="German" name="German" value="selected">
+      <label for="German"> German</label><br>
+      <input type="checkbox" id="Greek" name="Greek" value="selected">
+      <label for="Greek"> Greek</label><br>
+      <input type="checkbox" id="Hamburgers" name="Hamburgers" value="selected">
+      <label for="Hamburgers"> Hamburgers</label><br>
+      <input type="checkbox" id="Hawaiian" name="Hawaiian" value="selected">
+      <label for="Hawaiian"> Hawaiian</label><br>
+      <input type="checkbox" id="Hotdogs" name="Hotdogs" value="selected">
+      <label for="Hotdogs"> Hotdogs</label><br>
+      <input type="checkbox" id="Hotdogs_Pretzels" name="HotdogsPretzels" value="selected">
+      <label for="HotdogsPretzels"> Hotdogs/Pretzels</label><br>
+      <input type="checkbox" id="Indian" name="Indian" value="selected">
+      <label for="Indian"> Indian</label><br>
+      <input type="checkbox" id="Indonesian" name="Indonesian" value="selected">
+      <label for="Indonesian"> Indonesian</label><br>
+      <input type="checkbox" id="Iranian" name="Iranian" value="selected">
+      <label for="Iranian"> Iranian</label><br>
+      <input type="checkbox" id="Irish" name="Irish" value="selected">
+      <label for="Irish"> Irish</label><br>
+      <input type="checkbox" id="Italian" name="Italian" value="selected">
+      <label for="Italian"> Italian</label><br>
+      <input type="checkbox" id="Japanese" name="Japanese" value="selected">
+      <label for="Japanese"> Japanese</label><br>
+      <input type="checkbox" id="Jewish_Kosher" name="Jewish" value="selected">
+      <label for="Jewish"> Jewish/Kosher</label><br>
+      <input type="checkbox" id="Korean" name="Korean" value="selected">
+      <label for="Korean"> Korean</label><br>
+      <input type="checkbox" id="Mediterranean" name="Mediterranean" value="selected">
+      <label for="Mediterranean"> Mediterranean</label><br>
+      <input type="checkbox" id="Mexican" name="Mexican" value="selected">
+      <label for="Mexican"> Mexican</label><br>
+      <input type="checkbox" id="Moroccan" name="Moroccan" value="selected">
+      <label for="Moroccan"> Moroccan</label><br>
+      <input type="checkbox" id="Other" name="Other" value="selected">
+      <label for="Other"> Other</label><br>
+      <input type="checkbox" id="Pakistani" name="Pakistani" value="selected">
+      <label for="Pakistani"> Pakistani</label><br>
+      <input type="checkbox" id="Pancakes_Waffles" name="Pancakes" value="selected">
+      <label for="Pancakes"> Pancakes/Waffles</label><br>
+      <input type="checkbox" id="Peruvian" name="Peruvian" value="selected">
+      <label for="Peruvian"> Peruvian</label><br>
+      <input type="checkbox" id="Pizza" name="Pizza" value="selected">
+      <label for="Pizza"> Pizza</label><br>
+      <input type="checkbox" id="Polish" name="Polish" value="selected">
+      <label for="Polish"> Polish</label><br>
+      <input type="checkbox" id="Portuguese" name="Portuguese" value="selected">
+      <label for="Portuguese"> Portuguese</label><br>
+      <input type="checkbox" id="Russian" name="Russian" value="selected">
+      <label for="Russian"> Russian</label><br>
+      <input type="checkbox" id="Salads" name="Salads" value="selected">
+      <label for="Salads"> Salads</label><br>
+      <input type="checkbox" id="Sandwiches" name="Sandwiches" value="selected">
+      <label for="Sandwiches"> Sandwiches</label><br>
+      <input type="checkbox" id="MixBuffet" name="MixBuffet" value="selected">
+      <label for="MixBuffet"> Sandwiches/Salads/Mixed Buffet</label><br>
+      <input type="checkbox" id="Scandinavian" name="Scandinavian" value="selected">
+      <label for="Scandinavian"> Scandinavian</label><br>
+      <input type="checkbox" id="Seafood" name="Seafood" value="selected">
+      <label for="Seafood"> Seafood</label><br>
+      <input type="checkbox" id="SoulFood" name="SoulFood" value="selected">
+      <label for="SoulFood"> Soul Food</label><br>
+      <input type="checkbox" id="Soups" name="Soups" value="selected">
+      <label for="Soups"> Soups</label><br>
+      <input type="checkbox" id="SoupSand" name="SoupSand" value="selected">
+      <label for="SoupSand"> Soups & Sandwiches</label><br>
+      <input type="checkbox" id="Southwestern" name="Southwestern" value="selected">
+      <label for="Southwestern"> Southwestern</label><br>
+      <input type="checkbox" id="Spanish" name="Spanish" value="selected">
+      <label for="Spanish"> Spanish</label><br>
+      <input type="checkbox" id="Steak" name="Steak" value="selected">
+      <label for="Steak"> Steak</label><br>
+      <input type="checkbox" id="Tapas" name="Tapas" value="selected">
+      <label for="Tapas"> Tapas</label><br>
+      <input type="checkbox" id="Thai" name="Thai" value="selected">
+      <label for="Thai"> Thai</label><br>
+      <input type="checkbox" id="Turkish" name="Turkish" value="selected">
+      <label for="Turkish"> Turkish</label><br>
+      <input type="checkbox" id="Vegetarian" name="Vegetarian" value="selected">
+      <label for="Vegetarian"> Vegetarian</label><br>
+      <input type="checkbox" id="Viet" name="Viet" value="selected">
+      <label for="Viet"> Vietnamese/Cambodian/Malaysia</label><br>
+      Inspection Rating*:
+      <br>
+      <input type="checkbox" id="A" name="A" value="selected">
+      <label for="A"> A</label><br>
+      <input type="checkbox" id="B" name="B" value="selected">
+      <label for="B"> B</label><br>
+      <input type="checkbox" id="C" name="C" value="selected">
+      <label for="C"> C</label><br>
+      <br>
+      <input type="submit" value="Find My Match!">
+    </form>
+  </body>
+
+</html>
