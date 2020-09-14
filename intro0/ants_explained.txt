@@ -1,0 +1,9 @@
+﻿Each ant seems to follow these 3 rules: in order of priority
+-An ant wiggles randomly about from the center home colony.
+-If it encounters a food pile, it should take it back home and leave a green pheromone trail.
+-If an ant encounters a fellow ant’s green pheromone trail, it should wiggle about randomly but in close vicinity to the spot where it encountered the green trail until it encounters the food pile. 
+
+1. After looking at the info tab, my original guesses were somewhat accurate. Apparently, the ants sniff the scent instead of randomly bumping into it. They also follow the chemical directly toward the food instead of randomly staying within the chemical.
+2. When the evaporation rate is set to 0, the chemical scent does not go away. When the diffusion rate is set to 0, the scent only stays within the line of the ant by a 1by1 patch. When the evaporation rate is set to 100, there is no chemical scent at all.
+3. The broader implications of this program is that patches can have their own properties. Patches own a chemical property, food property, nest? property, nest-scent property, food-source-number property.
+4. The food pile to the right of the spawn point usually depletes first, then the pile to the bottom left, and then the pile to the top left of the world. This is because the food pile to the right is closer to the spawn point so when the turtles randomly wiggle, they are gonna encounter that pile quicker than the others piles.  

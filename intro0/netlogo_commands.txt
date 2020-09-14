@@ -1,0 +1,58 @@
+﻿Rickey Dong
+10.29.19
+Period 9
+Netlogo_commands_0
+
+
+The “clear-all” command wipes the NetLogo world clean of any agents.
+“Create-turtles x” spawns x amount of turtles in the world all facing a random direction.
+“Create-ordered-turtles x” spawns x amount of turtles in the world all evenly at (0,0)
+“Forward x” moves all of the turtles x distance towards where they’re facing
+“Back x” moves all of the turtles x distance back away from where they’re facing 
+“Right x” moves all of the turtles x degrees clockwise
+“Left x” moves all of the turtles x degrees counterclockwise
+“Pen-down” enables a mode where the turtles’ paths in the world are drawn to wherever they’re going
+“Set property value” changes a certain feature of all the turtles by some value
+
+
+
+
+
+
+Who: this gives the turtle a number to identify it
+N/A
+Color: this describes the color of the turtle
+Set color 34
+Set color 234
+Heading: the degrees it is facing towards
+Set heading 90
+Set heading 180
+Xcor: the x-coordinate of the turtle
+Set xcor 5
+Set xcor 10
+Ycor: the y-coordinate of the turtle
+Set ycor 5
+Set ycor 10
+Shape : the shape of the turtle
+Set shape “circle”
+Set shape “square”
+Label: label represents identification next to the turtle
+Set label 5
+Set label 6
+Label-color: the color of the label of the turtle
+Set label-color 5.5
+Set label-color 4.4
+Breed: the type of agent it is
+N/A
+Hidden?: boolean that asks if the turtle is out of sight
+Set hidden? True
+Set hidden? false
+Size: describes the size of the turtle
+Set size 10
+Set size 40
+Pen-size: the thickness of the line it draws behind itself when it moves when the pen-down is enabled
+Set pen-size 4
+Set pen-size 5
+Pen-mode: tells if the pen-down mode is enabled or not
+Set pen-mode “up”
+Set pen-mode “down”

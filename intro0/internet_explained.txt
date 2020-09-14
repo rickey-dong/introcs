@@ -1,0 +1,13 @@
+﻿Rickey Dong
+10/21/19
+Period 9
+Work 03
+Internet-explained
+
+
+1. An IP address is like a special tag or ID that computers have on the internet that is unique so other computers can identify them. 
+2. Timothy Berners-Lee is important because he was the first person to have created the world wide web.
+3. The last mile is the connection between private computers with the public internet, such as home computers or small business computers.
+4. The lock next to a URL signifies your computer’s connection to that website file on another computer is encrypted and therefore secure, so you can enter personal data without worry of having it intercepted. 
+5. The IETF is the Internet Engineering Task Force, and it is basically an open community where suggestions and improvements can be taken into consideration for the internet to improve. 
+6. The ICANN is the Internet Corporation for Assigned Names and Numbers, and it gives IP addresses or domain names such as stuy.enschool.org.

@@ -1,0 +1,106 @@
+﻿Rickey Dong
+10/20/19
+Period 9
+Work 02 Computer Build
+
+
+$498.29 Build:
+This is the ultimate computer for the broke college student. Its cheap affordability comes with high productivity capabilities for use at school, home, or work. 
+CPU: Intel Celeron G4920 3.2 GHz Dual-Core Processor ($61.00) This cheap CPU performs all necessary tasks needed by a college student, including using a word processor, powerpoint, spreadsheet, and browsing the web, with 3.2 Billion instructions per second.  
+Motherboard: ASRock B365M-HDV ($65.98) This fairly cheap motherboard can at the very least provide connections between the computer and peripherals such as a mouse and a printer, which is what a college student needs the most. 
+Cooler: Cooler Master Hyper 212 LED ($42.89) This cooler cools down the CPU, but it is not too powerful since college students do not need to work too many hours during the day.
+RAM: Kingston HyperX Fury 8 GB (1 x 8 GB) DDR4-2666 Memory ($48.88) This RAM allows the college student to have multiple applications open at the same time, including multiple tabs, for all of their homework needs. 
+Storage: Seagate BarraCuda 1 TB 3.5" 7200RPM Internal Hard Drive ($43.89) This provides storage for all of the files the student is keeping ranging from word documents to PDFs to powerpoints. 
+OS: Microsoft Windows 10 Home OEM 64-Bit ($109.89) This comes in with built-in security.
+Network: TP-Link TG-3468 PCIe x1 1000 Mbit/s Network Adapter ($14.89) This allows connection to another computer
+Graphics: N/A; A college student ideally should not be needing a graphics card, unless they are playing games, which is bad. 
+Power Supply: EVGA BR 500 W 80+ Bronze Certified ATX Power Supply ($55.88) Its purpose is to make sure the computer doesn’t always have a high voltage. 
+Case: Cooler Master MasterBox Lite 5 ATX Mid Tower Case ($54.99) This protects all of the hardware pieces within it. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$891.06 Build
+This computer is perfect for the student who also likes to relax with some games. 
+CPU: Intel Core i3-8350K 4 GHz Quad-Core Processor ($187.16) This CPU performs 4 billion instructions per second, allowing the student to run even the heaviest of games. 
+Motherboard: Gigabyte Z390 AORUS PRO ATX LGA1151 Motherboard ($187.49) This motherboard can allow all of the necessary connections between computer components and extra connections with peripherals such as mouse, keyboard, and a display monitor. 
+Cooler: Noctua NH-D15 82.5 CFM CPU Cooler ($89.95) This cooler prevents the CPU from overclocking when running high-performance games. 
+RAM: Patriot Viper Steel 16 GB (2 x 8 GB) DDR4-3600 Memory ($74.98) 16 GB of RAM allow loading of games and other applications to load in quickly.
+Storage: Western Digital Caviar Blue 1 TB 3.5" 7200RPM Internal Hard Drive ($44.89) 1 TB of storage allows many applications for school and leisure apps to be stored.
+OS: Microsoft Windows 10 Pro OEM 64-bit ($127.85) This comes with more features than Microsoft Windows 10 Home, such as Bitlocker. 
+Network: TP-Link Archer T6E AC1300 PCIe x1 802.11a/b/g/n/ac Wi-Fi Adapter ($39.89) This allows for the computer to access the internet with ease.
+Graphics: MSI GeForce GT 710 2 GB Low Profile Video Card ($45.99) This video card allows for only graphics to be processed so it won’t use up the CPU’s space
+Power Supply: EVGA BR 500 W 80+ Bronze Certified ATX Power Supply ($55.88) Its purpose is to make sure the computer doesn’t always have a high voltage. 
+Case: HEC HX300 ATX Mid Tower Case ($36.98) This case allows for a snazzy look while also protecting the hardware pieces. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$1197.89 Build
+This is the ultimate computer for the hardcore gamer and Twitch streamer. 
+CPU: Intel Core i5-7400 3 GHz Quad-Core Processor ($182.89) This CPU runs 3 billion instructions per second to process all of the games out there. 
+Cooler: be quiet! Dark Rock Pro 4 50.5 CFM CPU Cooler ($88.89) This cooler runs at a constant low level between 12.8 dB to 24.3 dB, making it quiet as to not make too much noise. 
+Motherboard: ASRock Fatal1ty B250 Gaming K4 ATX LGA1151 Motherboard ($119.52) This motherboard provides connections between the computer itself and all of the peripheral devices a gamer might need, such as a monitor, speaker, mouse, and keyboard. 
+RAM: G.Skill Ripjaws V Series 32 GB (2 x 16 GB) DDR4-3200 Memory ($129.99) 32 GB of RAM allow for the computer to run multiple things at once, such as the actual game itself, some music in the background, and a recording and streaming software to Twitch. 
+Storage: Samsung 860 Evo 1 TB 2.5" Solid State Drive ($129.99) 1 whole terabyte allows the gamer to keep many games in storage, so he/she can have a variety of games to choose from.
+OS: Microsoft Windows 10 Pro OEM 64-bit ($127.85) This comes with more features than Microsoft Windows 10 Home, such as Bitlocker.
+Network: Asus USB-AC68 USB 3.0 802.11a/b/g/n/ac Wi-Fi Adapter ($84.89) This wireless network adapter allows for the gamer to connect on to the internet and play multiplayer with many other players. 
+Graphics: MSI Radeon RX 580 8 GB ARMOR OC Video Card ($204.99) This graphics card helps the computer run stunning visuals in high performance games all while having smooth performance.
+Power Supply: Corsair CXM (2015) 450 W 80+ Bronze Certified Semi-modular ATX Power Supply ($59.89) Its purpose is to make sure the computer doesn’t always have a high voltage.
+Case: Cooler Master MasterBox MB510L ATX Mid Tower Case ($48.99) This case provides protection for all of the hardware pieces.

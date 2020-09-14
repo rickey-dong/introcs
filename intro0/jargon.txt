@@ -1,0 +1,22 @@
+﻿Rickey Dong
+2019-10-7
+Period 9
+Mr. DW
+Work 01
+
+
+Plain text: a file that has only simple characters. It does not contain fancy objects such as images or videos. 
+Algorithm: a set of step-by-step instructions that a computer can understand and perform
+Bit: the simplest unit of storage of information, analogous to the centimeter for distance or second for time
+Byte: a unit that contains eight bits and is enough to output one character
+Bandwidth: the speed at which information can go from one location to another
+Bluetooth: a way to transfer information over short distances without the need of a wire
+Botnet: a group of connected devices that usually do harm
+Cache: data that can be easily accessed in the future
+Compression: the way computers make files smaller but still have essentially the same content. .ZIP files are multiple files and folders into 1 and .RAR files are another way of compressing
+CPU: the main “brain” of the computer which allows it to function and operate
+GPU: the part of the computer that allows it to display visuals
+dual-core/quad-core: a dual core is two parts of a processor chip while quad core is 4 parts
+Encryption: the method of making a message secret and only to be accessed to the intended party
+Ethernet: technology which allows computers to connect over great distances 
+Firewall: a barrier between the home origin and any outside connections
